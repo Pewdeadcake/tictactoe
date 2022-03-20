@@ -20,8 +20,8 @@ const nobodyWinsMessage = () => `it's a draw!`
 // ----------------------------------  START GAME
 let checkInput = (input) => {
     input = +input
-    input = (input < 3)
-        ? 3
+    input = (input < 5)
+        ? 5
         : (input > 10)
             ? 10
             : input
